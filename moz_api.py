@@ -21,7 +21,7 @@ for i in domains:
 #Example function return DA only
 
 for i in domains:
-    result = grab_da(i
+    result = grab_da(i)
     da = result.authority()
     # Do what you like with the da value now
 
